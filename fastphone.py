@@ -4,21 +4,7 @@ from typing import Tuple
 class FastPhone(object):
     """
     Fastphone Implementaion using Trie Algorithm
-    Q1: High level description of my implementation and pontential
-        cases where this implementation perform poorly?
-    A1: The software implemented using a Trie Algorithm to auto-complete
-        and dial any number that is in the contact list based on what you've given.
-        It may poorly perform if the numbers, do not share prefixes. And this 
-        is a memory intensive program.
-
-    Q2: In the real world what would make you switch from a naive implementation 
-        to a trie based implementation?
-    A2: We can easily retreive data in an order which is not easy otherwise.
-
-    Q3: How would you assign new phone numbers to keep your data structure
-        running optimally?
-    A3: Store the phone numbers, with a common prefixes. 
-
+    
     """
 
     def __init__(self, char: str):
